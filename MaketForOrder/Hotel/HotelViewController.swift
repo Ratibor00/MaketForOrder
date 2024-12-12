@@ -68,7 +68,7 @@ private extension HotelViewController {
         secondView.snp.makeConstraints { make in
             make.width.equalToSuperview()
             make.top.equalTo(firstView.snp.bottom).offset(8)
-            make.bottom.equalToSuperview().offset(-65)
+            make.bottom.equalToSuperview().offset(-62)
         }
     }
     
